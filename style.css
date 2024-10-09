@@ -17,46 +17,137 @@ ul, ol, li{
 
 body{
     height: 100vh;
-    /* display: flex;
-    flex-direction: column;
-    padding-inline: 80px; */
-}
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100vh;
-}
-
-.ladoEsquerdo{
-    height: 80%;
     display: flex;
-    grid-template-columns: 20% 10% 70%;
-    /* align-items: center;
-    justify-content: center; */
-    /* background-color: blue; */
+    flex-direction: column;
+    padding-inline: 80px ;
+    background-color: white;
 }
 
-.menu{
-    height: 10vh;
+
+header{
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: blueviolet;
-   
+    color: #798796;
 }
 
-
-.barcelona{
-    height: 10vh;
-    width: 50%;
+.menu ul{
     display: flex;
+    gap: 32px;
+    font-size: 32px;
+}
+
+.numero{
+    height: 600px;
+    width: 20%;
+    display: flex;
+    color: #261F6A;
     background-color: yellow;
 }
 
-.ladoDireito{
+nav{
+    /* flex-grow: 1; */
+    height: 50px;
+    width: 30%;
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
-    background-color: brown;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    /* background-color: violet; */
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    /* background-color: brown; */
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.time{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: green; */
+}
+
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: cyan; */
+}
+.scroll{
+    display: flex;
+    /* background-color: chocolate; */
+    height: 600px;
+    width: 20%;
+}
+
+.redes{
+    display: flex;
+    /* background-color: teal; */
+    height: 600px;
+    width: 20%;
+}
+
+#camp {
+    color: #261F6A;
+
+}
+#barcelona{
+    color: #A299F0;
+}
+b{
+  color: #798796;  
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    color: #798796;
+    padding-top: 3%;
+    gap: 38px;
+}
+#lionel{
+    color: #5E5E79;
+}
+.text h1{
+    color: #414061;
+    font-size: 96px;
+}
+.text p{
+    width: 80%;
+    font-size: 40px;
+}
+
+.video{
+    /* background-color: purple; */
+    padding-top: 1%;
+}
+.video button{
+    height: 80px;
+    width: 290px;
+    color: #9493F2;
+    font-size: 32px;
+    /* background-color: black; */
+   
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    /* background-color: tomato; */
+    background-image: url(./screenshots/1485451692Lionel-Messi-PNG-Picture-Goal-Fifa.png);
+    justify-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -10%;
+    bottom: 0%;
+    z-index: 1;
 }
