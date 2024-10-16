@@ -44,7 +44,7 @@ header{
     width: 20%;
     display: flex;
     color: #261F6A;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 nav{
